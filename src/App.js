@@ -6,6 +6,7 @@ import Company from './components/Company/Company';
 import LatestNews from './components/LatestNews/LatestNews';
 import Footer from './components/shared/Footer/Footer';
 import Navigation from './components/shared/Navigation/Navigation';
+import YouCanDo from './components/YouCanDo/YouCanDo';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Company />
       <AllInOne />
+      <YouCanDo />
       <LatestNews />
       <Footer />
     </div>
